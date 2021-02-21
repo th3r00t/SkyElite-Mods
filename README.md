@@ -11,6 +11,7 @@ easy and powerful way to build your home cockpit.
 ```
 [Get SkyElite!](http://skyelite4mfs.com/downloads.html)
 
+![beta](/previews/Capture96.PNG)
 This project is an independant work, it is not endorsed, or supported by the SkyElite developers. Requests for support or features should be made here, or on the original forum post http://4flightsims.com/forums/Posts/m229--WIP--General-UI-Overhaul#post229
 
 Installation is pretty straight forward.
