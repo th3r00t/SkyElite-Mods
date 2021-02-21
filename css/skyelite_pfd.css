@@ -4,9 +4,10 @@
     z-index: 99999;
     width: 100%;
     text-align: center;
-    font-size: 1.7vw;
-    font-weight: 500;
+    font-size: 1.5vw;
+    /* font-weight: 500; */
     text-align: center;
+    margin: 5px;
     color: lightgray;
 }
 
@@ -40,8 +41,8 @@
 }
 
 .title_on {
-    color: lightskyblue !important;
-    text-shadow: 1px 1px 10px lightskyblue, 1px 1px 10px deepskyblue !important;
+    color: #3db12f !important;
+    text-shadow: 1px 1px 10px #f3f3f3, 1px 1px 10px #000000 !important;
 }
 
 .warn_on {
@@ -338,7 +339,7 @@
 
 #map_inset_elevation {
     position: absolute;
-    top: 7vh;
+    top: 59vh;
     right: 0vw;
     width: 72vw;
     height: 28vh;
