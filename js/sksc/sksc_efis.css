@@ -234,11 +234,12 @@
 .sksc_efis__HeadingMark {
     width: 20%;
     margin: 0 40% 0 40%;
-    height: 103%;
+    height: 98%;
     display: flex;
     justify-content: center;
-    /*mix-blend-mode: exclusion;*/    
+    /*mix-blend-mode: exclusion;*/
     pointer-events:none;
+    /* z-index: 999999999; */
 }
 
 .sksc_efis__HeadingFrame {
@@ -247,7 +248,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    /*mix-blend-mode: exclusion;*/    
+    /*mix-blend-mode: exclusion;*/
 }
 
 .sksc_efis__HeadingValue {
@@ -262,7 +263,7 @@
     padding: 0 0px;
     font-weight: 700;
     font-family: Helvetica Neue, Arial;
-    font-size: 2vh;
+    /* font-size: 2vh; */
     /*-webkit-perspective: 1000;*/
     -webkit-backface-visibility: hidden;
     -webkit-transition-timing-function: ease-out;
@@ -305,7 +306,7 @@
     padding: 0 0px;
     font-weight: 700;
     font-family: Helvetica Neue, Arial;
-    font-size: 2vh;
+    /* font-size: 2vh; */
     /*-webkit-perspective: 1000;*/
     -webkit-backface-visibility: hidden;
     -webkit-transition-timing-function: ease-out;
@@ -317,14 +318,14 @@
 
 .sksc_efis__HeadingCRSLabel {
     width: 15%;
-    min-width: 40px;    
+    min-width: 40px;
     display: flex;
     justify-content: center;
     border: 1px solid white;
     color: white;
     text-align: right;
     padding: 0 4px;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: Helvetica Neue, Arial;
     font-size: 1vh;
     /*-webkit-perspective: 1000;*/
@@ -516,31 +517,30 @@
 
 .vspeeds_table {
     position: absolute;
-    width: 7vw;
+    width: 5vw;
     height: 4vh;
     background-color: rgba(42,42,42,0.3);
     border-collapse: collapse;
-   /* border: 1px solid silver;*/
+    /* border: 1px solid silver;*/
     table-layout: fixed;
     -webkit-backface-visibility: hidden;
     -webkit-transition-timing-function: ease-out;
     -webkit-transition: -webkit-transform 1ms;
     transition-timing-function: ease-out;
     transition: transform 1ms;
-
     -moz-border-radius: 0.34em;
     -webkit-border-radius: 0.34em;
     -o-border-radius: 0.34em;
     -ms-border-radius: 0.34em;
     -khtml-border-radius: 0.34em;
-    border-radius: 0.34em
+    border-radius: 0.34em;
 }
 
     .vspeeds_table tr td {
         height: auto;
         width: auto;
         /*border: 1px solid silver !important;*/
-        font-size: 1vw;
+        /* font-size: 1vw; */
         color: white;
         text-align: center;
         padding: 0 4px;
@@ -553,7 +553,7 @@
         transition-timing-function: ease-out;
         transition: transform 1ms;
         border-right: 1px solid #434341;
-        border-bottom: 1px dashed #434341;        
+        border-bottom: 1px dashed #434341;
     }
 
     .vspeeds_table td:last-child {

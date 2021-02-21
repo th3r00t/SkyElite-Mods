@@ -100,7 +100,7 @@
 
 #inset_controls {
     position: absolute;
-    top: 13.8vh;
+    top: 11vh;
     right: 24vw;
     width: 24vw;
     /* height: 18vh; */
@@ -171,7 +171,7 @@
 
 #adf-container {
     position: absolute;
-    bottom: 0vh;
+    bottom: 2.5vh;
     right: 0vw;
     width: 100%;
     z-index: 9999;
@@ -218,7 +218,7 @@
 
 #inset_engine {
     position: absolute;
-    top: 21vh;
+    top: 18.5vh;
     right: 0vw;
     width: 20vw;
     /* height: 18vh; */
@@ -349,8 +349,8 @@
 
 #inset_wind {
     position: absolute;
-    bottom: 42vh;
-    left: 0vw;
+    bottom: 69vh;
+    left: -1.9vw;
     width: 6vw;
     /*height: 9vh;*/
     z-index: 9999;
@@ -358,14 +358,14 @@
 
 #wind-container {
     position: absolute;
-    bottom: 0vh;
+    bottom: 2vh;
     right: 0vw;
-    width: 6vw;
-    height: 10vh;
+    width: 4vw;
+    height: 7vh;
     z-index: 9999;
     /*background-color: #36393b;*/
     color: #eee0d3;
-    font-size: 1.5vh;
+    font-size: 1vh;
     font-weight: 500;
     border: 1px solid #202020;
     background-color: rgba(54,57,59, .9);
@@ -374,7 +374,7 @@
     -o-border-radius: 0.34em;
     -ms-border-radius: 0.34em;
     -khtml-border-radius: 0.34em;
-    border-radius: 0.34em
+    border-radius: 0.34em;
 }
 
     /*#wind-container:before {
@@ -462,7 +462,7 @@
 
 #lower_box_container {
     position: absolute;
-    top: 7vh;
+    top: 3vw;
     left: 0.1vw;
     /* width: 40%; */
     /* height: 6vh; */

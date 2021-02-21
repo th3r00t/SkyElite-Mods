@@ -290,7 +290,7 @@
         this.planeAirSpeedNode.style.top = '40%';
         this.planeAirSpeedNode.style.left = '28%';
         this.planeAirSpeedNode.style.zIndex  = "9999";        
-        this.planeAirSpeedNode.style.minWidth = "9vw"; // "120px";        
+        this.planeAirSpeedNode.style.minWidth = "6vw"; // "120px";        
         this.planeAirSpeedNode.textContent = "0";
 
         this.planeAirSpeedNode.style.color = "#eee0d3"; //cornsilk        #eee0d3
@@ -331,7 +331,7 @@
         this.planeSelectedAirSpeedNode.style.top = '20%';
         this.planeSelectedAirSpeedNode.style.left = '28%';
         this.planeSelectedAirSpeedNode.style.zIndex = "9999";
-        this.planeSelectedAirSpeedNode.style.minWidth = "6vw"; // "120px";        
+        this.planeSelectedAirSpeedNode.style.minWidth = "4vw"; // "120px";        
         this.planeSelectedAirSpeedNode.textContent = "0";
         this.planeSelectedAirSpeedNode.style.cursor = "n-resize"; 
         //this.planeSelectedAirSpeedNode.style.fontFamily = "digital-7, sans-serif"; 
@@ -347,12 +347,12 @@
         this.planeTasNode.style.top = '20%';
         this.planeTasNode.style.left = '28%';
         this.planeTasNode.style.zIndex = "9999";
-        this.planeTasNode.style.minWidth = "6vw"; //"135px";        
+        this.planeTasNode.style.minWidth = "4vw"; //"135px";        
         this.planeTasNode.textContent = "0";
         this.planeTasNode.style.cursor = "n-resize";
         //this.planeTasNode.style.fontFamily = "digital-7, sans-serif";
         this.planeTasNode.style.color = "navajowhite";
-        this.planeTasNode.style.fontSize = "1.3vw";
+        //this.planeTasNode.style.fontSize = "1.3vw";
         //this.planeTasNode.style.fontWeight = 500;
         //
 
@@ -499,7 +499,7 @@
         this.planeAltitudeNode.style.top = '40%';
         this.planeAltitudeNode.style.left = '80%';
         this.planeAltitudeNode.style.zIndex = "9999";
-        this.planeAltitudeNode.style.minWidth = "10vw"; //"135px";        
+        this.planeAltitudeNode.style.minWidth = "6vw"; //"135px";        
         this.planeAltitudeNode.textContent = "0";
 
         this.planeAltitudeNode.style.color = "powderblue";        
@@ -541,7 +541,7 @@
         this.planeSelectedAltitudeNode.style.top = '20%';
         this.planeSelectedAltitudeNode.style.left = '80%';
         this.planeSelectedAltitudeNode.style.zIndex = "9999";
-        this.planeSelectedAltitudeNode.style.minWidth = "8vw"; //"135px";        
+        this.planeSelectedAltitudeNode.style.minWidth = "6vw"; //"135px";        
         this.planeSelectedAltitudeNode.textContent = "0";
         this.planeSelectedAltitudeNode.style.cursor = "n-resize"; 
         //this.planeSelectedAltitudeNode.style.fontFamily = "digital-7, sans-serif"; 
@@ -557,12 +557,12 @@
         this.planeBarometerNode.style.top = '20%';
         this.planeBarometerNode.style.left = '80%';
         this.planeBarometerNode.style.zIndex = "9999";
-        this.planeBarometerNode.style.minWidth = "6vw"; //"135px";        
+        this.planeBarometerNode.style.minWidth = "3vw"; //"135px";        
         this.planeBarometerNode.textContent = "0";
         this.planeBarometerNode.style.cursor = "n-resize";
         //this.planeBarometerNode.style.fontFamily = "digital-7, sans-serif";
         this.planeBarometerNode.style.color = "navajowhite";    
-        this.planeBarometerNode.style.fontSize = "1.3vw";
+        //this.planeBarometerNode.style.fontSize = "1.3vw";
         //this.planeBarometerNode.style.fontWeight = 500;
         //
 
@@ -670,17 +670,17 @@
         this.wrapperNode.appendChild(this.planeVSNode);
 
         this.planeVSNode.style.position = 'absolute';
-        this.planeVSNode.style.top = '30%';
+        this.planeVSNode.style.top = '40%';
         this.planeVSNode.style.left = '80%';
         this.planeVSNode.style.zIndex = "9999";        
-        this.planeVSNode.style.minWidth = "6vw"; //"115px";        
+        this.planeVSNode.style.minWidth = "4vw"; //"115px";        
         this.planeVSNode.textContent = "0";
         //this.planeVSNode.style.color = "black"; //"dodgerblue";        
 
         this.planeVSNode.style.color = "deepskyblue"; //"dodgerblue";                
         this.planeVSNode.style.backgroundColor = "rgba(42, 42, 42, 0.8)";
 
-        this.planeVSNode.style.fontSize = "1.4vw"; 
+        //this.planeVSNode.style.fontSize = "1.4vw"; 
         //
 
         /*this.odometer_vs = new Odometer({
@@ -713,10 +713,10 @@
         this.wrapperNode.appendChild(this.planeSelectedVSNode);
 
         this.planeSelectedVSNode.style.position = 'absolute';
-        this.planeSelectedVSNode.style.top = '20%';
+        this.planeSelectedVSNode.style.top = '30%';
         this.planeSelectedVSNode.style.left = '80%';
         this.planeSelectedVSNode.style.zIndex = "9999";
-        this.planeSelectedVSNode.style.minWidth = "5vw"; //"115px";        
+        this.planeSelectedVSNode.style.minWidth = "4vw"; //"115px";        
         this.planeSelectedVSNode.textContent = "0";
         this.planeSelectedVSNode.style.cursor = "n-resize"; 
         //this.planeSelectedVSNode.style.fontFamily = "digital-7, sans-serif"; 
@@ -882,7 +882,7 @@
     }
 
     p.refreshHeadingValuePosition = function () {        
-        this.planeHeadingValueNode.style.top = this.planeHeadingImage.offsetTop - 10 + "px";
+        this.planeHeadingValueNode.style.top = this.planeHeadingImage.offsetTop + 17 + "px";
         this.planeHeadingArrowNode.style.top = this.planeHeadingValueNode.offsetTop + this.planeHeadingValueNode.offsetHeight + "px";
         this.planeHeadingArrowNode.style.left = (Math.round(this.planeHeadingIndNode.offsetWidth - this.planeHeadingArrowNode.offsetWidth) / 2) + "px";  
 
@@ -910,9 +910,9 @@
         
         //var pm = this.planeMarkNode.offsetLeft;
         var pm = this.planeMarkImage.offsetLeft; 
-
-        this.planeAirSpeedNode.style.top = (eg - ah - 5) + "px";
-        this.planeAirSpeedNode.style.left = pm - (this.planeAirSpeedNode.offsetWidth / 3) - 5 + "px";
+        var aoh = document.getElementById("air_speed").offsetHeight;
+        this.planeAirSpeedNode.style.top = (eg - ah + (aoh / 2)) + "px";
+        this.planeAirSpeedNode.style.left = pm - (this.planeAirSpeedNode.offsetWidth / 3) + 15 + "px";
 
         //this.planeAirSpeedLabelNode.style.top = this.planeAirSpeedNode.offsetTop - this.planeAirSpeedLabelNode.clientHeight - 1 + "px";
         //this.planeAirSpeedLabelNode.style.left = this.planeAirSpeedNode.offsetLeft + "px"; 
@@ -920,12 +920,12 @@
         this.planeSelectedAirSpeedNode.style.top = this.planeAirSpeedNode.offsetTop - this.planeSelectedAirSpeedNode.clientHeight - 1 + "px";
         this.planeSelectedAirSpeedNode.style.left = this.planeAirSpeedNode.offsetLeft + ((this.planeAirSpeedNode.clientWidth - this.planeSelectedAirSpeedNode.clientWidth) /2) + "px";
 
-        this.planeTasNode.style.top = Math.round(this.planeMarkNode.clientHeight / 2) + 0 + "px"; //this.planeAirSpeedLabelNode.offsetTop + this.planeSelectedAirSpeedNode.clientHeight + this.planeVSpeedsInfoNode.clientHeight +  + "px";
+        this.planeTasNode.style.top = Math.round(this.planeMarkNode.clientHeight / 2) + 12 + "px"; //this.planeAirSpeedLabelNode.offsetTop + this.planeSelectedAirSpeedNode.clientHeight + this.planeVSpeedsInfoNode.clientHeight +  + "px";
         this.planeTasNode.style.left = this.planeAirSpeedNode.offsetLeft + ((this.planeAirSpeedNode.offsetWidth - this.planeTasNode.offsetWidth) / 2) + "px";
         //this.planeTasNode.style.width = this.planeAirSpeedNode.clientWidth + "px";
 
         //this.planeVSpeedsInfoNode.style.width = this.planeTasNode.clientWidth + "px";
-        this.planeVSpeedsInfoNode.style.top = this.planeAirSpeedNode.offsetTop - Math.round((this.planeVSpeedsInfoNode.clientHeight - this.planeAirSpeedNode.clientHeight) / 2) + "px"; //this.planeAirSpeedLabelNode.offsetTop + this.planeSelectedAirSpeedNode.clientHeight + this.planeVSpeedsInfoNode.clientHeight +  + "px";
+        this.planeVSpeedsInfoNode.style.top = this.planeAirSpeedNode.offsetTop - Math.round((this.planeVSpeedsInfoNode.clientHeight / 2)) + "px"; //this.planeAirSpeedLabelNode.offsetTop + this.planeSelectedAirSpeedNode.clientHeight + this.planeVSpeedsInfoNode.clientHeight +  + "px";
         this.planeVSpeedsInfoNode.style.left = this.planeAirSpeedNode.offsetLeft - this.planeVSpeedsInfoNode.clientWidth - 10 + "px";
         
     }
@@ -963,11 +963,12 @@
         var aw = document.getElementById("altitude").offsetWidth;
 
         var vw = document.getElementById("vertical_speed").offsetWidth;
+        var vh = document.getElementById("vertical_speed").offsetHeight;
 
         var pm = this.planeMarkNode.offsetLeft + (this.planeMarkNode.offsetWidth);
 
-        this.planeAltitudeNode.style.top = (eg - ah -3) + "px";
-        this.planeAltitudeNode.style.left = (pm - aw - vw + 0) + "px";
+        this.planeAltitudeNode.style.top = (eg - ah + (vh / 2)) + "px";
+        this.planeAltitudeNode.style.left = ((pm - aw - vw + 0) - 100) + "px";
 
         //this.planeAltitudeLabelNode.style.top = this.planeAltitudeNode.offsetTop - this.planeAltitudeLabelNode.offsetHeight + 1 + "px";
         //this.planeAltitudeLabelNode.style.left = this.planeAltitudeNode.offsetLeft + "px"; 
@@ -975,7 +976,7 @@
         this.planeSelectedAltitudeNode.style.top = this.planeAltitudeNode.offsetTop - this.planeSelectedAltitudeNode.offsetHeight + 1 + "px";
         this.planeSelectedAltitudeNode.style.left = this.planeAltitudeNode.offsetLeft + ((this.planeAltitudeNode.offsetWidth - this.planeSelectedAltitudeNode.offsetWidth) / 2) + "px";;
 
-        this.planeBarometerNode.style.top = Math.round(this.planeMarkNode.clientHeight / 2) + 0 + "px";
+        this.planeBarometerNode.style.top = Math.round(this.planeMarkNode.clientHeight / 2) + 10 + "px";
         this.planeBarometerNode.style.left = this.planeAltitudeNode.offsetLeft + ((this.planeAltitudeNode.offsetWidth - this.planeBarometerNode.offsetWidth) /2) + "px";
 
         /*this.planeOatNode.style.top = Math.round(this.planeMarkNode.clientHeight / 2) + 9 + this.planeBarometerNode.offsetHeight + "px";
@@ -1001,11 +1002,11 @@
 
         var ah = document.getElementById("vertical_speed").clientHeight;
         var aw = document.getElementById("vertical_speed").offsetWidth;
-
+        var vh = document.getElementById("vertical_speed").offsetHeight;
         var pm = this.planeMarkNode.offsetLeft + (this.planeMarkNode.clientWidth);
 
-        this.planeVSNode.style.top = (eg - ah - 15) + "px";
-        this.planeVSNode.style.left = (pm - aw - 1) + "px";
+        this.planeVSNode.style.top = (eg - ah + (vh / 2) - 2) + "px";
+        this.planeVSNode.style.left = ((pm - aw - 1) - 100) + "px";
 
         /*this.planeVSLabelNode.style.top = this.planeVSNode.offsetTop - this.planeVSLabelNode.clientHeight - 1 + "px";
         this.planeVSLabelNode.style.left = this.planeVSNode.offsetLeft + "px";*/
