@@ -2,8 +2,8 @@
 
 ### [SkyElite](http://skyelite4mfs.com/downloads.html)
 ```PFD and MFD for MFS 2020
-SkyElite is the most realistic web-based EFIS system specially designed to provide an enhanced experience
-and a full immersion in the Microsoft Flight Simulator 2020 environment.
+SkyElite is the most realistic web-based EFIS system specially designed to provide an enhanced
+experience and a full immersion in the Microsoft Flight Simulator 2020 environment.
 
 Easy to scale system with PFD, MFD, moving map, aircraft controls, light switches,
 flight plan information, route map and much more by using SkyElite, the most flexible,
