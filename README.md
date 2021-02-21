@@ -1,6 +1,6 @@
 # SkyElite-Mods
 
-### [SkyElite](http://skyelite4mfs.com/downloads.html)
+### [SkyElite by 4flightsims.com](http://skyelite4mfs.com/downloads.html)
 ```PFD and MFD for MFS 2020
 SkyElite is the most realistic web-based EFIS system specially designed to provide an enhanced
 experience and a full immersion in the Microsoft Flight Simulator 2020 environment.
